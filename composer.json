@@ -1,0 +1,27 @@
+{
+    "name": "laravel/signature",
+    "description": "api signature",
+    "keywords": [
+        "api",
+        "auth",
+        "signature"
+    ],
+    "authors": [
+        {
+            "name": "wenhao",
+            "email": "840346763@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Signature\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Signature\\SignatureProvider"
+            ]
+        }
+    }
+}
