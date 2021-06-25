@@ -41,10 +41,10 @@ php artisan migrate
 `
 
 #### 前端请求需要携带的参数
-`
+```
 {
     "ts" : "时间戳(请求时间)",
     "user_id" : "用户id",
     "sign": "前端根据该包的sign算法生成的(参考 Signature.php 中的 makeSign 方法)"
 }
-`
+```
