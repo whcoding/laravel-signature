@@ -9,7 +9,7 @@ laravel-signature 是一个接口签名验证包, 其中包括了对token生成,
 - .env 开启 debug 会返回正确sign, 生产环境记得关闭. 
 
 #### 使用方法
-`composer require laravel/signature`
+`composer require whcoding/signature`
 
 设置 auth.php 
 ```
